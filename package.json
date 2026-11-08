@@ -4,8 +4,10 @@
   "license": "MIT",
   "type": "module",
   "private": true,
-  "scripts": {
-    "start": "wrangler dev",
+"packageManager": "pnpm@12.16.1",
+"scripts": {
+
+   "start": "wrangler dev",
     "deploy": "wrangler deploy",
     "check": "pnpm run '/^check:.*/'",
     "check:audit": "pnpm audit",
